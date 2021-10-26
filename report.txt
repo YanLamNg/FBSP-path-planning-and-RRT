@@ -1,0 +1,91 @@
+i. Discuss the implementation for section 2, 3, and 4 and any improvement that you have implemented.
+
+In section 2, we use the sample codes as path planning simulation domain. The details of this simulation is described
+in the assignment description. Note that we set obstacles cannot overlap. We will discuss the reason later.
+
+In section 3, we implement the Quadtree and FBSP, and employ an A* algorithm for finding the shortest path. For the
+Quadtree, after decomposition, the map is split into free, mixed and obstacle nodes. We store all free nodes and use them
+to find the shortest path by A* algorithm. For the FBSP, the only difference between the FBSP and the Quadtree is the
+decomposition method. The FBSP cut horizontally or vertically at vertices of obstacles and calculates the entropy of the
+area. Then, we look at the difference between the entropy of the original space and the total entropy in the resulting
+partitioned spaces in order to select the partition point. There is an issue we can't fix. When the obstacles overlap,
+the decomposition method of FBSP does not work properly, so we set obstacles cannot overlap. Note that we set the
+minimumSize of FBSP to 0.05 instead of 0.2.
+
+In section 4,
+we implement the single source extend RRT (with biased) algorithm. we random generate a point that would connect to the closest node of tree with in the step length if there is no obstacle.
+If the step length of RRt decrease (e.g 2), the average runtime would tend to increase and the average path length would tend to decrease, and vice versa
+If we increase small amount of biased, it could decrease the average runtime and the average path length.
+
+ii. Show the outputs (screenshots) from section 2, 3, and 4.
+Check folder <figure>
+
+iii. Discuss the experimental results.
+RRT tend to has longer path than QuadTree and FBSP due to the random step , but the runtime is shorter.
+QuadTree has the shortest path length, but it has longer runtime due to the long decomposition process.
+when number of obstacles increases from 10 to 20, the path length and runtime of three algorithm increases significantly.
+However, when number of obstacles increases from 20 to 30, the path length of three algorithm decreases. The runtime of
+QuadTree continues to increase.
+
+
+
+Evaluation output:
+
+/home/ian/anaconda3/envs/AI/bin/python /home/ian/PycharmProjects/temp_A3/comp4190_ai_a3/Code/Evaluation.py
+/*********************  Map info  ***************************
+Map_size: 100
+number_obstacle: 10
+obstacle_max_size: 50
+obstacle_min_size: 10
+num_sameple: 5
+************************************************************/
+	RRT average path length: 82.08194980270439
+	RRT average runtime: 0.002653837203979492
+	QuadTree average path length: 65.74673357286144
+	QuadTree average runtime: 0.6449096202850342
+	FBSP average path length: 79.21952353425402
+	FBSP average runtime: 0.006309318542480469
+
+/*********************  Map info  ***************************
+Map_size: 100
+number_obstacle: 20
+obstacle_max_size: 35
+obstacle_min_size: 9
+num_sameple: 5
+************************************************************/
+	RRT average path length: 105.00272178237954
+	RRT average runtime: 0.251921272277832
+	QuadTree average path length: 69.08941399923422
+	QuadTree average runtime: 2.296678304672241
+	FBSP average path length: 107.44337702870625
+	FBSP average runtime: 0.031534671783447266
+
+/*********************  Map info  ***************************
+Map_size: 100
+number_obstacle: 30
+obstacle_max_size: 25
+obstacle_min_size: 8
+num_sameple: 5
+************************************************************/
+	RRT average path length: 79.46216115737445
+	RRT average runtime: 0.04948458671569824
+	QuadTree average path length: 63.94223339701158
+	QuadTree average runtime: 3.5797025680541994
+	FBSP average path length: 71.45970083640717
+	FBSP average runtime: 0.07171897888183594
+
+/*********************  Map info  ***************************
+Map_size: 100
+number_obstacle: 40
+obstacle_max_size: 20
+obstacle_min_size: 7
+num_sameple: 5
+************************************************************/
+	RRT average path length: 98.61150062445472
+	RRT average runtime: 0.07416114807128907
+	QuadTree average path length: 74.07710267589701
+	QuadTree average runtime: 3.9368268489837646
+	FBSP average path length: 87.21148376595798
+	FBSP average runtime: 0.11537561416625977
+
+Process finished with exit code 0

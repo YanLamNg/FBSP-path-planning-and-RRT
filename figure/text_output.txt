@@ -1,0 +1,232 @@
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 10
+obstacle_max_size: 50
+obstacle_min_size: 10 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 111.65070348824186
+	RRT average runtime: 0.24526844024658204
+	QuadTree average path length: 87.68312446243809
+	QuadTree average runtime: 1.5626823902130127
+	FBSP average path length: 96.64153794087898
+	FBSP average runtime: 0.007816505432128907
+
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 20
+obstacle_max_size: 35
+obstacle_min_size: 9 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 147.43511597754815
+	RRT average runtime: 0.08149509429931641
+	QuadTree average path length: 105.90198426677844
+	QuadTree average runtime: 3.645260143280029
+	FBSP average path length: 114.29829877825402
+	FBSP average runtime: 0.02865147590637207
+
+Quadtree path not found
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 30
+obstacle_max_size: 25
+obstacle_min_size: 8 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 66.90527220760308
+	RRT average runtime: 0.16897964477539062
+	QuadTree average path length: 41.638942335307505
+	QuadTree average runtime: 2.104500722885132
+	FBSP average path length: 75.86148273204569
+	FBSP average runtime: 0.061629199981689455
+
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 40
+obstacle_max_size: 20
+obstacle_min_size: 7 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 84.88150796819966
+	RRT average runtime: 0.04991464614868164
+	QuadTree average path length: 70.33360684598706
+	QuadTree average runtime: 4.426205110549927
+	FBSP average path length: 114.78224642898456
+	FBSP average runtime: 0.11156792640686035
+
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************
+we set RRT -->MAX_RRT_STEP_LENGTH = 10
+**********************************/
+
+
+
+
+
+/home/ian/anaconda3/envs/AI/bin/python /home/ian/PycharmProjects/temp_A3/comp4190_ai_a3/Code/Evaluation.py
+
+Bad key "text.kerning_factor" on line 4 in
+/home/ian/anaconda3/envs/AI/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+or from the matplotlib source distribution
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 10
+obstacle_max_size: 50
+obstacle_min_size: 10 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 109.574944479794
+	RRT average runtime: 0.04754033088684082
+	QuadTree average path length: 62.60474170225225
+	QuadTree average runtime: 0.9267300128936767
+	FBSP average path length: 97.61394865689286
+	FBSP average runtime: 0.006588268280029297
+
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 20
+obstacle_max_size: 35
+obstacle_min_size: 9 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 63.128243500265725
+	RRT average runtime: 0.0069067955017089845
+	QuadTree average path length: 58.415934479940276
+	QuadTree average runtime: 2.193346548080444
+	FBSP average path length: 68.13307035615324
+	FBSP average runtime: 0.02436990737915039
+
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 30
+obstacle_max_size: 25
+obstacle_min_size: 8 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 89.0017539282238
+	RRT average runtime: 0.09100747108459473
+	QuadTree average path length: 69.56920828286523
+	QuadTree average runtime: 3.1303701877593992
+	FBSP average path length: 94.81565269579752
+	FBSP average runtime: 0.06331810951232911
+
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 40
+obstacle_max_size: 20
+obstacle_min_size: 7 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 56.86272223778101
+	RRT average runtime: 0.02130117416381836
+	QuadTree average path length: 52.62379886650566
+	QuadTree average runtime: 2.1792126655578614
+	FBSP average path length: 58.85732386689598
+	FBSP average runtime: 0.1081430435180664
+
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+/*********************************
+we set RRT -->MAX_RRT_STEP_LENGTH = 3
+**********************************/
+
+
+
+
+/home/ian/anaconda3/envs/AI/bin/python /home/ian/PycharmProjects/temp_A3/comp4190_ai_a3/Code/Evaluation.py
+
+Bad key "text.kerning_factor" on line 4 in
+/home/ian/anaconda3/envs/AI/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib/_classic_test_patch.mplstyle.
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.1.3/matplotlibrc.template
+or from the matplotlib source distribution
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 10
+obstacle_max_size: 50
+obstacle_min_size: 10 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 75.66571355695882
+	RRT average runtime: 0.08579039573669434
+	QuadTree average path length: 68.37214807115814
+	QuadTree average runtime: 1.0417818546295166
+	FBSP average path length: 93.35319829306046
+	FBSP average runtime: 0.006550645828247071
+
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 20
+obstacle_max_size: 35
+obstacle_min_size: 9 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 109.41683644916141
+	RRT average runtime: 0.19675402641296386
+	QuadTree average path length: 66.57278953669632
+	QuadTree average runtime: 2.037881326675415
+	FBSP average path length: 68.95443548044548
+	FBSP average runtime: 0.026917791366577147
+
+Quadtree path not found
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 30
+obstacle_max_size: 25
+obstacle_min_size: 8 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 74.87816330872467
+	RRT average runtime: 0.18448448181152344
+	QuadTree average path length: 50.54332878873009
+	QuadTree average runtime: 5.962337493896484
+	FBSP average path length: 72.6915915752995
+	FBSP average runtime: 0.0631406307220459
+
+/*********************  Map info  ***************************
+Map_size: 100 
+number_obstacle: 40
+obstacle_max_size: 20
+obstacle_min_size: 7 
+num_sameple: 5
+************************************************************/
+	RRT average path length: 118.69666926662553
+	RRT average runtime: 1.3015315532684326
+	QuadTree average path length: 68.19639484979763
+	QuadTree average runtime: 4.438840055465699
+	FBSP average path length: 90.18614172719272
+	FBSP average runtime: 0.10358967781066894
+
+
+Process finished with exit code 0
+
+
+
