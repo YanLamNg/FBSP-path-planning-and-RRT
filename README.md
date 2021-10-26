@@ -10,7 +10,7 @@ The second path planning algorithm is the single source extend RRT (with biased)
 
 
 
-OMP 4190
+COMP 4190
 Artificial Intelligence
 Assignment 3
 
