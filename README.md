@@ -1,4 +1,14 @@
-# COMP4190_AI_A3
+# FBSP path planning and RRT
+/
+The path planning simulation domain (2D map navigation) used in this assignment is a simple wheeled robot. Assume the dimension of the robot is a single point. The obstacles are simple rectangles that may overlap. 
+
+Assume the size of the environment is 100cm by 100cm and the size of the obstacles is between 10cm by 10cm to 50cm by 50cm (down to 1cm accuracy). 
+
+The first path planning algorithm is the quadtree and FBSP (flexible binary space partitioning) decomposition algorithms. Employ an A* algorithm for finding the shortest path. Assume the robot will move from one cell to the other through their centre points. 
+
+The second path planning algorithm is the single source extend RRT (with biased) algorithm. The “step length” of your RRT algorithm should be 1cm - 5cm (depends on your domain). If the step-length is 5 cm and your RRT is within 5cm of the goal location, then you can add the last part from the tree node to the goal position.
+
+
 
 OMP 4190
 Artificial Intelligence
