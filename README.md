@@ -1,5 +1,5 @@
 # FBSP path planning and RRT
-/
+
 The path planning simulation domain (2D map navigation) used in this assignment is a simple wheeled robot. Assume the dimension of the robot is a single point. The obstacles are simple rectangles that may overlap. 
 
 Assume the size of the environment is 100cm by 100cm and the size of the obstacles is between 10cm by 10cm to 50cm by 50cm (down to 1cm accuracy). 
