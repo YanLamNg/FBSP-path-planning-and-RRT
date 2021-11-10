@@ -16,7 +16,7 @@ Assignment 3
 
 Authors:
 
-Xiaojian Xie 7821950
+Xiaojian Xie 7821950, 
 YanLam Ng 7775665
 
 
