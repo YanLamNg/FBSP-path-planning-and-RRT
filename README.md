@@ -17,10 +17,9 @@ Assignment 3
 Authors:
 
 Xiaojian Xie 7821950
-
 YanLam Ng 7775665
 
-Group: 9
+
 
 To run the program simply run the python code either for fbsp_path_planning.py or rrt.py. 
 
